@@ -8,7 +8,17 @@ public class TheRiddler {
 
 	public static void main(String[] args) {
 
-		// 1. Make a variable to hold the score
+		int score = 0;
+		ask user"what has many keys but cant open a single lock";
+		correct answer "a piano";
+		if{
+			"correct answer a piano"
+			}
+		else{
+		score++;
+		}
+		
+		// 1. make a variable to hold the score
 
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
 
