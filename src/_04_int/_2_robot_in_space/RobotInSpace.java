@@ -15,11 +15,12 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class RobotInSpace extends KeyboardAdapter {
 
+	private static final String moveRobot = null;
 	Robot rob = new Robot("mini");
-	private boolean movingForward = false;
-	private boolean movingBackward = false;
-	private boolean turningLeft = false;
-	private boolean turningRight = false;
+	private boolean movingForward = true;
+	private boolean movingBackward = true;
+	private boolean turningLeft = true;
+	private boolean turningRight = true;
 
 	/*
 	 * Make the Robot move around the screen when the arrow keys are pressed...
@@ -29,7 +30,7 @@ public class RobotInSpace extends KeyboardAdapter {
 	 * code here - go to step 2
 	 */
 
-	private void moveRobot(int keyPressed) {
+	private void moveRobot(int keyPressed) { moveRobot(int keyPressed1;  
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
 		
@@ -42,6 +43,11 @@ public class RobotInSpace extends KeyboardAdapter {
 		// 6. If right is pressed, move the Robot right.
 		
 		// 7. Run your program and move the Robot to R2-D2 for a surprise!
+		
+	}
+
+	private void moveRobot() {
+		// TODO Auto-generated method stub
 		
 	}
 
